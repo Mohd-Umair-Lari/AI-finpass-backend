@@ -1,0 +1,3102 @@
+[
+  {
+    "_id": "2828c1f3-50c8-4a5c-8166-0abee44ed10a",
+    "Name": "User1",
+    "Age": 26,
+    "employement-status": "Unemployed",
+    "email": "user1@example.com",
+    "password": "ffFJcfue",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 4680670,
+      "target-time": 19
+    },
+    "financials": {
+      "monthly-income": 96906,
+      "monthly-expenses": 73692,
+      "monthly_savings": 23214,
+      "debt": 49972,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "SIP",
+      "invest-amt": 15572
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 1,
+      "ROR": 7.59,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "5968b740-8f73-4059-b1fc-a906b97db2f7",
+    "Name": "User2",
+    "Age": 43,
+    "employement-status": "Unemployed",
+    "email": "user2@example.com",
+    "password": "sgXwrUDX",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 2049904,
+      "target-time": 5
+    },
+    "financials": {
+      "monthly-income": 87921,
+      "monthly-expenses": 66381,
+      "monthly_savings": 21540,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 23828
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 2,
+      "ROR": 13.1,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "40c8169b-a01b-4926-8ea8-ed88ef47b56b",
+    "Name": "User3",
+    "Age": 25,
+    "employement-status": "Self-Employed",
+    "email": "user3@example.com",
+    "password": "PuWRvIR5",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 106265,
+      "target-time": 2
+    },
+    "financials": {
+      "monthly-income": 101413,
+      "monthly-expenses": 20052,
+      "monthly_savings": 81361,
+      "debt": 89499,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "SIP",
+      "invest-amt": 48964
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 8,
+      "ROR": 11.02,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "77a1ac6e-5c93-4169-9ee1-60d01e751449",
+    "Name": "User4",
+    "Age": 40,
+    "employement-status": "Self-Employed",
+    "email": "user4@example.com",
+    "password": "AkP7l4AA",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 952382,
+      "target-time": 1
+    },
+    "financials": {
+      "monthly-income": 107352,
+      "monthly-expenses": 61023,
+      "monthly_savings": 46329,
+      "debt": 72352,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "SIP",
+      "invest-amt": 41235
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 7,
+      "ROR": 5.21,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "d0cc3fb2-4084-4f83-9f97-3481936324c2",
+    "Name": "User5",
+    "Age": 50,
+    "employement-status": "Self-Employed",
+    "email": "user5@example.com",
+    "password": "fWDqroM7",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 3122891,
+      "target-time": 4
+    },
+    "financials": {
+      "monthly-income": 50766,
+      "monthly-expenses": 77612,
+      "monthly_savings": -26846,
+      "debt": 21662,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 40350
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 10,
+      "ROR": 5.18,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "41d58279-2e3f-47ec-b071-4e3ccfb56e00",
+    "Name": "User6",
+    "Age": 29,
+    "employement-status": "Self-Employed",
+    "email": "user6@example.com",
+    "password": "P575dpIS",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 1836412,
+      "target-time": 16
+    },
+    "financials": {
+      "monthly-income": 109104,
+      "monthly-expenses": 68654,
+      "monthly_savings": 40450,
+      "debt": 93550,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 28351
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 3,
+      "ROR": 5.62,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "9003098c-1ba6-42c4-99fa-27189c4b1ca8",
+    "Name": "User7",
+    "Age": 24,
+    "employement-status": "Self-Employed",
+    "email": "user7@example.com",
+    "password": "BMvIRAZ2",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 3191908,
+      "target-time": 10
+    },
+    "financials": {
+      "monthly-income": 65274,
+      "monthly-expenses": 31554,
+      "monthly_savings": 33720,
+      "debt": 57567,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 39083
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 4,
+      "ROR": 9.4,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "30daaec4-7dc0-4465-882b-8ce9ceb346e4",
+    "Name": "User8",
+    "Age": 44,
+    "employement-status": "Unemployed",
+    "email": "user8@example.com",
+    "password": "QMEuV9xB",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 1172488,
+      "target-time": 6
+    },
+    "financials": {
+      "monthly-income": 89892,
+      "monthly-expenses": 24118,
+      "monthly_savings": 65774,
+      "debt": 37276,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "SIP",
+      "invest-amt": 40930
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 3,
+      "ROR": 5.94,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "314b02cb-21c7-423a-91b1-50b094f656f6",
+    "Name": "User9",
+    "Age": 23,
+    "employement-status": "Unemployed",
+    "email": "user9@example.com",
+    "password": "DyQ9wJ24",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 378692,
+      "target-time": 12
+    },
+    "financials": {
+      "monthly-income": 90941,
+      "monthly-expenses": 36890,
+      "monthly_savings": 54051,
+      "debt": 18030,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 41967
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 1,
+      "ROR": 14.94,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "36f6d001-0079-4f91-ae4c-458311eac520",
+    "Name": "User10",
+    "Age": 35,
+    "employement-status": "Self-Employed",
+    "email": "user10@example.com",
+    "password": "q8dCk9xK",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 1095425,
+      "target-time": 13
+    },
+    "financials": {
+      "monthly-income": 137924,
+      "monthly-expenses": 54296,
+      "monthly_savings": 83628,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 40761
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 4,
+      "ROR": 13.24,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "b0684479-a407-471b-a388-aa5b903b9477",
+    "Name": "User11",
+    "Age": 45,
+    "employement-status": "Salaried",
+    "email": "user11@example.com",
+    "password": "GuO6ZhfS",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 3382424,
+      "target-time": 5
+    },
+    "financials": {
+      "monthly-income": 52244,
+      "monthly-expenses": 18106,
+      "monthly_savings": 34138,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 36743
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 6,
+      "ROR": 12.23,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "5622a7aa-5924-44b8-8329-9d77522cb776",
+    "Name": "User12",
+    "Age": 26,
+    "employement-status": "Freelancer",
+    "email": "user12@example.com",
+    "password": "QeptxR0F",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 2256207,
+      "target-time": 7
+    },
+    "financials": {
+      "monthly-income": 90026,
+      "monthly-expenses": 56308,
+      "monthly_savings": 33718,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 36671
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 1,
+      "ROR": 11.37,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "d763c01a-bac0-4f45-b712-6e54818f68af",
+    "Name": "User13",
+    "Age": 49,
+    "employement-status": "Unemployed",
+    "email": "user13@example.com",
+    "password": "Rx6qtu9E",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 379545,
+      "target-time": 6
+    },
+    "financials": {
+      "monthly-income": 133169,
+      "monthly-expenses": 71552,
+      "monthly_savings": 61617,
+      "debt": 83928,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "Stocks",
+      "invest-amt": 17260
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 8,
+      "ROR": 6.17,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "d4e5d9d0-3e6b-4f10-b904-bfac0414ea41",
+    "Name": "User14",
+    "Age": 33,
+    "employement-status": "Self-Employed",
+    "email": "user14@example.com",
+    "password": "4vR783Xu",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 3227859,
+      "target-time": 1
+    },
+    "financials": {
+      "monthly-income": 86575,
+      "monthly-expenses": 55568,
+      "monthly_savings": 31007,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 36812
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 2,
+      "ROR": 11.77,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "152c17e7-0b13-44bf-8950-43bb53ae19cc",
+    "Name": "User15",
+    "Age": 47,
+    "employement-status": "Self-Employed",
+    "email": "user15@example.com",
+    "password": "T4bJfea1",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 1143158,
+      "target-time": 17
+    },
+    "financials": {
+      "monthly-income": 30432,
+      "monthly-expenses": 22490,
+      "monthly_savings": 7942,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "Stocks",
+      "invest-amt": 9045
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 6,
+      "ROR": 10.87,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "ded68339-a9be-4998-a958-26111a88f02e",
+    "Name": "User16",
+    "Age": 29,
+    "employement-status": "Freelancer",
+    "email": "user16@example.com",
+    "password": "Raw0LKhE",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 4450855,
+      "target-time": 19
+    },
+    "financials": {
+      "monthly-income": 32196,
+      "monthly-expenses": 29093,
+      "monthly_savings": 3103,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 21782
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 6,
+      "ROR": 6.82,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "c5a97bf6-86d5-4df8-a340-76114b1d97b0",
+    "Name": "User17",
+    "Age": 22,
+    "employement-status": "Unemployed",
+    "email": "user17@example.com",
+    "password": "JK70QArK",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 3396463,
+      "target-time": 7
+    },
+    "financials": {
+      "monthly-income": 111748,
+      "monthly-expenses": 21970,
+      "monthly_savings": 89778,
+      "debt": 34789,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 9786
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 4,
+      "ROR": 11.11,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "20e340b4-0634-4a95-b425-3d15154a14c2",
+    "Name": "User18",
+    "Age": 41,
+    "employement-status": "Salaried",
+    "email": "user18@example.com",
+    "password": "idAstnCc",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 2067853,
+      "target-time": 1
+    },
+    "financials": {
+      "monthly-income": 48074,
+      "monthly-expenses": 71486,
+      "monthly_savings": -23412,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "Stocks",
+      "invest-amt": 42750
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 2,
+      "ROR": 12.08,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "bdea7f37-fa85-47d9-b319-07a0a8853ee5",
+    "Name": "User19",
+    "Age": 21,
+    "employement-status": "Unemployed",
+    "email": "user19@example.com",
+    "password": "da4UiMna",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 2192152,
+      "target-time": 10
+    },
+    "financials": {
+      "monthly-income": 119067,
+      "monthly-expenses": 26404,
+      "monthly_savings": 92663,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 46019
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 1,
+      "ROR": 8.9,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "cd73f75a-6742-4343-b410-a0a466cac051",
+    "Name": "User20",
+    "Age": 35,
+    "employement-status": "Self-Employed",
+    "email": "user20@example.com",
+    "password": "lGxZ0PkA",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 4444170,
+      "target-time": 17
+    },
+    "financials": {
+      "monthly-income": 87254,
+      "monthly-expenses": 65421,
+      "monthly_savings": 21833,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 8967
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 8,
+      "ROR": 5.42,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "fa813cb4-0bf6-49a4-a220-95b4683a66ef",
+    "Name": "User21",
+    "Age": 28,
+    "employement-status": "Freelancer",
+    "email": "user21@example.com",
+    "password": "hrUPlyI5",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 225163,
+      "target-time": 14
+    },
+    "financials": {
+      "monthly-income": 115516,
+      "monthly-expenses": 23455,
+      "monthly_savings": 92061,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 14950
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 5,
+      "ROR": 9.91,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "8fae4385-736f-477a-9956-834fe7df7242",
+    "Name": "User22",
+    "Age": 46,
+    "employement-status": "Freelancer",
+    "email": "user22@example.com",
+    "password": "y3VM2ntZ",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 2285884,
+      "target-time": 18
+    },
+    "financials": {
+      "monthly-income": 136191,
+      "monthly-expenses": 52637,
+      "monthly_savings": 83554,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 29804
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 3,
+      "ROR": 14.9,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "8ab0b56d-14dc-4f77-8e75-a880fd274861",
+    "Name": "User23",
+    "Age": 35,
+    "employement-status": "Salaried",
+    "email": "user23@example.com",
+    "password": "tfx3iKvg",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 3164213,
+      "target-time": 16
+    },
+    "financials": {
+      "monthly-income": 120335,
+      "monthly-expenses": 24912,
+      "monthly_savings": 95423,
+      "debt": 46943,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 5053
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 1,
+      "ROR": 5.46,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "5e196e93-9b6c-4207-b67a-14fc9268cafb",
+    "Name": "User24",
+    "Age": 43,
+    "employement-status": "Freelancer",
+    "email": "user24@example.com",
+    "password": "cDOdBGtf",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 2130190,
+      "target-time": 13
+    },
+    "financials": {
+      "monthly-income": 53580,
+      "monthly-expenses": 69317,
+      "monthly_savings": -15737,
+      "debt": 66412,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 8294
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 9,
+      "ROR": 14.25,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "3ece2273-ca36-4afa-bae1-f2df211f2adc",
+    "Name": "User25",
+    "Age": 48,
+    "employement-status": "Unemployed",
+    "email": "user25@example.com",
+    "password": "8dcg4QAl",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 286363,
+      "target-time": 13
+    },
+    "financials": {
+      "monthly-income": 91977,
+      "monthly-expenses": 28404,
+      "monthly_savings": 63573,
+      "debt": 59288,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "Stocks",
+      "invest-amt": 36766
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 3,
+      "ROR": 6.2,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "de5cf19c-3646-4601-a222-2376c54aa151",
+    "Name": "User26",
+    "Age": 40,
+    "employement-status": "Salaried",
+    "email": "user26@example.com",
+    "password": "zvexBMKm",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 1544829,
+      "target-time": 6
+    },
+    "financials": {
+      "monthly-income": 101638,
+      "monthly-expenses": 59548,
+      "monthly_savings": 42090,
+      "debt": 91869,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 22393
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 8,
+      "ROR": 13.37,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "07ea8018-8f5f-403c-b4a9-1e557ff87a44",
+    "Name": "User27",
+    "Age": 30,
+    "employement-status": "Self-Employed",
+    "email": "user27@example.com",
+    "password": "k2kC9ONp",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 65807,
+      "target-time": 6
+    },
+    "financials": {
+      "monthly-income": 35539,
+      "monthly-expenses": 19303,
+      "monthly_savings": 16236,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 39844
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 8,
+      "ROR": 9.06,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "3e59d1fc-2edc-4043-be96-8636cd543ba2",
+    "Name": "User28",
+    "Age": 31,
+    "employement-status": "Freelancer",
+    "email": "user28@example.com",
+    "password": "UwBMFMF4",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 1437744,
+      "target-time": 6
+    },
+    "financials": {
+      "monthly-income": 93813,
+      "monthly-expenses": 73957,
+      "monthly_savings": 19856,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "Stocks",
+      "invest-amt": 49944
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 8,
+      "ROR": 14.02,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "a037b6d7-14e2-4e2f-902a-b3fdc4370dad",
+    "Name": "User29",
+    "Age": 34,
+    "employement-status": "Self-Employed",
+    "email": "user29@example.com",
+    "password": "sbfo5xds",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 2533797,
+      "target-time": 16
+    },
+    "financials": {
+      "monthly-income": 80961,
+      "monthly-expenses": 61202,
+      "monthly_savings": 19759,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "SIP",
+      "invest-amt": 5074
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 6,
+      "ROR": 5.9,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "53180323-c4ef-493d-a7ac-49dcf0c473de",
+    "Name": "User30",
+    "Age": 30,
+    "employement-status": "Salaried",
+    "email": "user30@example.com",
+    "password": "wjAhPTja",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 2918675,
+      "target-time": 14
+    },
+    "financials": {
+      "monthly-income": 120271,
+      "monthly-expenses": 50411,
+      "monthly_savings": 69860,
+      "debt": 91185,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 29785
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 1,
+      "ROR": 7.77,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "87398a65-1e3a-4bb5-9cd3-d38872fb20e3",
+    "Name": "User31",
+    "Age": 29,
+    "employement-status": "Unemployed",
+    "email": "user31@example.com",
+    "password": "CB77k2KA",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 4085304,
+      "target-time": 19
+    },
+    "financials": {
+      "monthly-income": 104381,
+      "monthly-expenses": 17742,
+      "monthly_savings": 86639,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 15664
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 9,
+      "ROR": 12.26,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "584aa605-2482-498f-88f8-7d4c8f747bb4",
+    "Name": "User32",
+    "Age": 47,
+    "employement-status": "Freelancer",
+    "email": "user32@example.com",
+    "password": "xKHmLOIo",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 3003139,
+      "target-time": 16
+    },
+    "financials": {
+      "monthly-income": 121405,
+      "monthly-expenses": 38763,
+      "monthly_savings": 82642,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 31114
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 5,
+      "ROR": 7.5,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "fcd5c57f-53f0-4027-9bb9-1a3b00679298",
+    "Name": "User33",
+    "Age": 40,
+    "employement-status": "Salaried",
+    "email": "user33@example.com",
+    "password": "n0cD5wOQ",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 2804843,
+      "target-time": 8
+    },
+    "financials": {
+      "monthly-income": 46015,
+      "monthly-expenses": 60821,
+      "monthly_savings": -14806,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 35319
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 10,
+      "ROR": 10.55,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "6c229805-cf51-4fc3-9611-f288083fc7b0",
+    "Name": "User34",
+    "Age": 44,
+    "employement-status": "Salaried",
+    "email": "user34@example.com",
+    "password": "EDqpySWx",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 3681242,
+      "target-time": 19
+    },
+    "financials": {
+      "monthly-income": 132450,
+      "monthly-expenses": 70055,
+      "monthly_savings": 62395,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 7403
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 7,
+      "ROR": 7.4,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "be389e31-4ca1-4828-a2e2-9158bb7151ed",
+    "Name": "User35",
+    "Age": 31,
+    "employement-status": "Self-Employed",
+    "email": "user35@example.com",
+    "password": "X0J2cPXA",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 2070792,
+      "target-time": 19
+    },
+    "financials": {
+      "monthly-income": 46421,
+      "monthly-expenses": 47248,
+      "monthly_savings": -827,
+      "debt": 54013,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 34538
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 1,
+      "ROR": 11.12,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "7beab995-54eb-45c4-9d37-b4b4fc06e5a3",
+    "Name": "User36",
+    "Age": 48,
+    "employement-status": "Salaried",
+    "email": "user36@example.com",
+    "password": "AWQui2le",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 878960,
+      "target-time": 17
+    },
+    "financials": {
+      "monthly-income": 35350,
+      "monthly-expenses": 27981,
+      "monthly_savings": 7369,
+      "debt": 80017,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 33951
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 3,
+      "ROR": 13.45,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "e3aa2edc-b076-48d1-8351-58decc688fa9",
+    "Name": "User37",
+    "Age": 35,
+    "employement-status": "Unemployed",
+    "email": "user37@example.com",
+    "password": "eqG3Ylph",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 2520733,
+      "target-time": 1
+    },
+    "financials": {
+      "monthly-income": 137927,
+      "monthly-expenses": 38064,
+      "monthly_savings": 99863,
+      "debt": 86905,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 49991
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 4,
+      "ROR": 12.38,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "eec3ea6c-5377-430b-8d0e-7d89e023fdf3",
+    "Name": "User38",
+    "Age": 35,
+    "employement-status": "Salaried",
+    "email": "user38@example.com",
+    "password": "nPri30kR",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 4492178,
+      "target-time": 2
+    },
+    "financials": {
+      "monthly-income": 107457,
+      "monthly-expenses": 25746,
+      "monthly_savings": 81711,
+      "debt": 54244,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 36293
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 9,
+      "ROR": 13.27,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "602b8d0b-1bc9-4c14-9eb1-3ae732d74caf",
+    "Name": "User39",
+    "Age": 29,
+    "employement-status": "Freelancer",
+    "email": "user39@example.com",
+    "password": "UyopQcc0",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 3726134,
+      "target-time": 11
+    },
+    "financials": {
+      "monthly-income": 87157,
+      "monthly-expenses": 55474,
+      "monthly_savings": 31683,
+      "debt": 36635,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 24827
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 3,
+      "ROR": 13.33,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "f1d1f9bc-4858-4a6e-afff-7b3bf1fce176",
+    "Name": "User40",
+    "Age": 26,
+    "employement-status": "Salaried",
+    "email": "user40@example.com",
+    "password": "OnHMTVvY",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 254203,
+      "target-time": 4
+    },
+    "financials": {
+      "monthly-income": 77268,
+      "monthly-expenses": 69251,
+      "monthly_savings": 8017,
+      "debt": 33559,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 17352
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 6,
+      "ROR": 8.86,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "8230d153-3477-45e6-b508-b4b82a7ef301",
+    "Name": "User41",
+    "Age": 39,
+    "employement-status": "Unemployed",
+    "email": "user41@example.com",
+    "password": "dVGhJ0d2",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 4436689,
+      "target-time": 15
+    },
+    "financials": {
+      "monthly-income": 135524,
+      "monthly-expenses": 27474,
+      "monthly_savings": 108050,
+      "debt": 33849,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 12962
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 8,
+      "ROR": 12.71,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "a5d05101-361e-4714-9176-f5d6795371e8",
+    "Name": "User42",
+    "Age": 26,
+    "employement-status": "Salaried",
+    "email": "user42@example.com",
+    "password": "SLbuPXI6",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 2969643,
+      "target-time": 4
+    },
+    "financials": {
+      "monthly-income": 91968,
+      "monthly-expenses": 11371,
+      "monthly_savings": 80597,
+      "debt": 95170,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 43438
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 10,
+      "ROR": 6.1,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "6cb7fffd-5a43-485a-b199-42749a85ef9c",
+    "Name": "User43",
+    "Age": 44,
+    "employement-status": "Freelancer",
+    "email": "user43@example.com",
+    "password": "VbXKDZFI",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 1953031,
+      "target-time": 16
+    },
+    "financials": {
+      "monthly-income": 135578,
+      "monthly-expenses": 24142,
+      "monthly_savings": 111436,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 48203
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 3,
+      "ROR": 12.04,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "f6a33a09-cb1a-4771-8370-6cb01e8cdd5b",
+    "Name": "User44",
+    "Age": 46,
+    "employement-status": "Salaried",
+    "email": "user44@example.com",
+    "password": "eGBTOqNT",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 544697,
+      "target-time": 10
+    },
+    "financials": {
+      "monthly-income": 96572,
+      "monthly-expenses": 29720,
+      "monthly_savings": 66852,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 44609
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 1,
+      "ROR": 7.37,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "1e05174a-057c-4f75-9f57-f4660cabeffc",
+    "Name": "User45",
+    "Age": 20,
+    "employement-status": "Freelancer",
+    "email": "user45@example.com",
+    "password": "NebAReGo",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 2654442,
+      "target-time": 12
+    },
+    "financials": {
+      "monthly-income": 118826,
+      "monthly-expenses": 44283,
+      "monthly_savings": 74543,
+      "debt": 98783,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 13294
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 2,
+      "ROR": 13.15,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "81ac2610-799b-4b94-b0d2-f7c6c93e2472",
+    "Name": "User46",
+    "Age": 24,
+    "employement-status": "Salaried",
+    "email": "user46@example.com",
+    "password": "KxTDWj46",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 4116232,
+      "target-time": 14
+    },
+    "financials": {
+      "monthly-income": 107687,
+      "monthly-expenses": 48460,
+      "monthly_savings": 59227,
+      "debt": 40851,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 11790
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 3,
+      "ROR": 10.95,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "f9848408-d1ba-49a7-9456-2bf53b3291f9",
+    "Name": "User47",
+    "Age": 28,
+    "employement-status": "Freelancer",
+    "email": "user47@example.com",
+    "password": "7uCAAgAU",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 112461,
+      "target-time": 14
+    },
+    "financials": {
+      "monthly-income": 89140,
+      "monthly-expenses": 45468,
+      "monthly_savings": 43672,
+      "debt": 47166,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 24308
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 8,
+      "ROR": 10.79,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "e1e29bf0-5119-4a1e-825f-1d3c1dfaac9a",
+    "Name": "User48",
+    "Age": 48,
+    "employement-status": "Salaried",
+    "email": "user48@example.com",
+    "password": "s9trt3rm",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 1056093,
+      "target-time": 16
+    },
+    "financials": {
+      "monthly-income": 114350,
+      "monthly-expenses": 50763,
+      "monthly_savings": 63587,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 26585
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 6,
+      "ROR": 12.51,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "72bca8cd-eafb-48c2-8794-29f6f14f34a6",
+    "Name": "User49",
+    "Age": 21,
+    "employement-status": "Self-Employed",
+    "email": "user49@example.com",
+    "password": "yQcsLTnq",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 3416804,
+      "target-time": 13
+    },
+    "financials": {
+      "monthly-income": 103333,
+      "monthly-expenses": 42450,
+      "monthly_savings": 60883,
+      "debt": 79869,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 26897
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 2,
+      "ROR": 8.27,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "aaf622dc-d37e-4950-ba2c-0976a899058a",
+    "Name": "User50",
+    "Age": 46,
+    "employement-status": "Freelancer",
+    "email": "user50@example.com",
+    "password": "juHI4PG3",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 3440244,
+      "target-time": 16
+    },
+    "financials": {
+      "monthly-income": 50670,
+      "monthly-expenses": 27792,
+      "monthly_savings": 22878,
+      "debt": 50144,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 15168
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 4,
+      "ROR": 11.7,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "c6fea584-873b-4f2b-a598-88af36e17dec",
+    "Name": "User51",
+    "Age": 22,
+    "employement-status": "Freelancer",
+    "email": "user51@example.com",
+    "password": "6GW3ZjLG",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 685180,
+      "target-time": 17
+    },
+    "financials": {
+      "monthly-income": 70790,
+      "monthly-expenses": 32946,
+      "monthly_savings": 37844,
+      "debt": 68388,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 10823
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 6,
+      "ROR": 14.01,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "beb2c1a6-5130-4855-813f-7ec9bf4c7a12",
+    "Name": "User52",
+    "Age": 44,
+    "employement-status": "Unemployed",
+    "email": "user52@example.com",
+    "password": "AGDERJKu",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 3457162,
+      "target-time": 15
+    },
+    "financials": {
+      "monthly-income": 58531,
+      "monthly-expenses": 66524,
+      "monthly_savings": -7993,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 44840
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 10,
+      "ROR": 6.72,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "f9762384-c966-43e4-9517-e1df1940d8d8",
+    "Name": "User53",
+    "Age": 47,
+    "employement-status": "Self-Employed",
+    "email": "user53@example.com",
+    "password": "7J9hTZ7n",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 4079849,
+      "target-time": 8
+    },
+    "financials": {
+      "monthly-income": 46782,
+      "monthly-expenses": 13705,
+      "monthly_savings": 33077,
+      "debt": 72517,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 47596
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 4,
+      "ROR": 11.7,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "aaa7eb19-50f8-43dd-912a-42cf83d94456",
+    "Name": "User54",
+    "Age": 38,
+    "employement-status": "Self-Employed",
+    "email": "user54@example.com",
+    "password": "BVFTCrtA",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 563944,
+      "target-time": 17
+    },
+    "financials": {
+      "monthly-income": 43941,
+      "monthly-expenses": 59733,
+      "monthly_savings": -15792,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 7447
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 4,
+      "ROR": 5.71,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "7781df4f-3f59-4b40-81ab-0cf6b573d9ac",
+    "Name": "User55",
+    "Age": 38,
+    "employement-status": "Unemployed",
+    "email": "user55@example.com",
+    "password": "FYI1IkJs",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 4302074,
+      "target-time": 5
+    },
+    "financials": {
+      "monthly-income": 38442,
+      "monthly-expenses": 64808,
+      "monthly_savings": -26366,
+      "debt": 34366,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 7151
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 8,
+      "ROR": 8.9,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "9363a953-ea9c-483d-8058-b40ed6933ce1",
+    "Name": "User56",
+    "Age": 45,
+    "employement-status": "Freelancer",
+    "email": "user56@example.com",
+    "password": "nqOOxtOS",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 1056881,
+      "target-time": 12
+    },
+    "financials": {
+      "monthly-income": 117607,
+      "monthly-expenses": 24639,
+      "monthly_savings": 92968,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 26351
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 1,
+      "ROR": 6.33,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "014744a2-9098-420e-a9a0-994ece042d01",
+    "Name": "User57",
+    "Age": 47,
+    "employement-status": "Salaried",
+    "email": "user57@example.com",
+    "password": "ZozunSHU",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 561721,
+      "target-time": 5
+    },
+    "financials": {
+      "monthly-income": 52861,
+      "monthly-expenses": 12022,
+      "monthly_savings": 40839,
+      "debt": 84744,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "SIP",
+      "invest-amt": 26655
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 5,
+      "ROR": 11.67,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "e3c9afd6-8f35-41eb-ae62-a1664c8048d7",
+    "Name": "User58",
+    "Age": 25,
+    "employement-status": "Self-Employed",
+    "email": "user58@example.com",
+    "password": "NuRYqM9m",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 1312499,
+      "target-time": 17
+    },
+    "financials": {
+      "monthly-income": 90658,
+      "monthly-expenses": 75671,
+      "monthly_savings": 14987,
+      "debt": 66305,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 10070
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 10,
+      "ROR": 8.92,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "21adec37-f76c-4d01-bcbc-04bdec3fe912",
+    "Name": "User59",
+    "Age": 48,
+    "employement-status": "Salaried",
+    "email": "user59@example.com",
+    "password": "TvoPWRnr",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 2062667,
+      "target-time": 17
+    },
+    "financials": {
+      "monthly-income": 131819,
+      "monthly-expenses": 53261,
+      "monthly_savings": 78558,
+      "debt": 41979,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 46836
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 2,
+      "ROR": 5.86,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "b4ec23b0-0068-43ff-9e57-0c1e33b5b056",
+    "Name": "User60",
+    "Age": 26,
+    "employement-status": "Unemployed",
+    "email": "user60@example.com",
+    "password": "KViwmlKl",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 3975968,
+      "target-time": 10
+    },
+    "financials": {
+      "monthly-income": 67308,
+      "monthly-expenses": 26936,
+      "monthly_savings": 40372,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 6663
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 8,
+      "ROR": 13.77,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "ffd2c04d-2956-4a1d-8778-126a07239179",
+    "Name": "User61",
+    "Age": 38,
+    "employement-status": "Self-Employed",
+    "email": "user61@example.com",
+    "password": "Ud4BwIFW",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 641823,
+      "target-time": 13
+    },
+    "financials": {
+      "monthly-income": 144208,
+      "monthly-expenses": 12391,
+      "monthly_savings": 131817,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 32095
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 2,
+      "ROR": 14.72,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "bd3d9a61-6d52-4fc2-813c-3734d3ba63a6",
+    "Name": "User62",
+    "Age": 36,
+    "employement-status": "Salaried",
+    "email": "user62@example.com",
+    "password": "TVHdM4WT",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 4369951,
+      "target-time": 16
+    },
+    "financials": {
+      "monthly-income": 93637,
+      "monthly-expenses": 46400,
+      "monthly_savings": 47237,
+      "debt": 71684,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "Stocks",
+      "invest-amt": 24399
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 8,
+      "ROR": 10.98,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "5b237007-a4c7-4f79-b876-f72e0f64d0a6",
+    "Name": "User63",
+    "Age": 27,
+    "employement-status": "Salaried",
+    "email": "user63@example.com",
+    "password": "3ssvnuE4",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 4813487,
+      "target-time": 8
+    },
+    "financials": {
+      "monthly-income": 120035,
+      "monthly-expenses": 73437,
+      "monthly_savings": 46598,
+      "debt": 46642,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 5993
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 7,
+      "ROR": 10.34,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "7d0351c8-6025-49c6-846b-6dc42b85ce75",
+    "Name": "User64",
+    "Age": 39,
+    "employement-status": "Freelancer",
+    "email": "user64@example.com",
+    "password": "sksLFo8S",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 1346858,
+      "target-time": 6
+    },
+    "financials": {
+      "monthly-income": 39947,
+      "monthly-expenses": 52359,
+      "monthly_savings": -12412,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "SIP",
+      "invest-amt": 48791
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 9,
+      "ROR": 13.03,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "ee293efb-a47c-49ce-bfb0-4ddc4b1ea7a1",
+    "Name": "User65",
+    "Age": 48,
+    "employement-status": "Freelancer",
+    "email": "user65@example.com",
+    "password": "4dFPY7vN",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 1641219,
+      "target-time": 20
+    },
+    "financials": {
+      "monthly-income": 104940,
+      "monthly-expenses": 60752,
+      "monthly_savings": 44188,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 34323
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 4,
+      "ROR": 13.41,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "6d7a481d-eaaa-4bdc-8364-86a788cdc815",
+    "Name": "User66",
+    "Age": 26,
+    "employement-status": "Unemployed",
+    "email": "user66@example.com",
+    "password": "CPlJxbiN",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 4076898,
+      "target-time": 5
+    },
+    "financials": {
+      "monthly-income": 110180,
+      "monthly-expenses": 67876,
+      "monthly_savings": 42304,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "SIP",
+      "invest-amt": 9684
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 10,
+      "ROR": 14.15,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "47049b7c-1e50-458a-a875-637603d053f4",
+    "Name": "User67",
+    "Age": 23,
+    "employement-status": "Salaried",
+    "email": "user67@example.com",
+    "password": "CywaeX7t",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 4374765,
+      "target-time": 14
+    },
+    "financials": {
+      "monthly-income": 36033,
+      "monthly-expenses": 58638,
+      "monthly_savings": -22605,
+      "debt": 43620,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "Stocks",
+      "invest-amt": 42470
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 8,
+      "ROR": 14.36,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "1a1ee4f0-d267-43e4-95e3-b91db0c097d8",
+    "Name": "User68",
+    "Age": 24,
+    "employement-status": "Freelancer",
+    "email": "user68@example.com",
+    "password": "rrdRYvmw",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 4142657,
+      "target-time": 8
+    },
+    "financials": {
+      "monthly-income": 50931,
+      "monthly-expenses": 77615,
+      "monthly_savings": -26684,
+      "debt": 23107,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 30329
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 3,
+      "ROR": 13.8,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "b480f35a-04a5-42dd-8693-e8cec40fb6d4",
+    "Name": "User69",
+    "Age": 50,
+    "employement-status": "Self-Employed",
+    "email": "user69@example.com",
+    "password": "OnckVyfB",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 2205019,
+      "target-time": 8
+    },
+    "financials": {
+      "monthly-income": 45044,
+      "monthly-expenses": 75620,
+      "monthly_savings": -30576,
+      "debt": 45495,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 30052
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 10,
+      "ROR": 12.77,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "c0a3d6b0-f9cd-4419-b83e-ee5fe736fd8b",
+    "Name": "User70",
+    "Age": 44,
+    "employement-status": "Self-Employed",
+    "email": "user70@example.com",
+    "password": "j90fzshT",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 4325178,
+      "target-time": 16
+    },
+    "financials": {
+      "monthly-income": 92339,
+      "monthly-expenses": 68181,
+      "monthly_savings": 24158,
+      "debt": 65665,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "SIP",
+      "invest-amt": 28827
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 7,
+      "ROR": 13.34,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "7cb4ce1a-a304-4d30-b672-8c3a44a8d025",
+    "Name": "User71",
+    "Age": 20,
+    "employement-status": "Unemployed",
+    "email": "user71@example.com",
+    "password": "XDkqiJSz",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 1403135,
+      "target-time": 9
+    },
+    "financials": {
+      "monthly-income": 107542,
+      "monthly-expenses": 61936,
+      "monthly_savings": 45606,
+      "debt": 72039,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 41163
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 7,
+      "ROR": 10.11,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "fa99a9af-1bc0-4763-928a-4c8a86e4233c",
+    "Name": "User72",
+    "Age": 45,
+    "employement-status": "Freelancer",
+    "email": "user72@example.com",
+    "password": "mLUyyr55",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 1018367,
+      "target-time": 11
+    },
+    "financials": {
+      "monthly-income": 101578,
+      "monthly-expenses": 20857,
+      "monthly_savings": 80721,
+      "debt": 20969,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 40898
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 9,
+      "ROR": 7.2,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "0fa0a949-c3c1-4b63-a8b3-6feaeba82511",
+    "Name": "User73",
+    "Age": 48,
+    "employement-status": "Unemployed",
+    "email": "user73@example.com",
+    "password": "fbC17dRV",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 3264305,
+      "target-time": 13
+    },
+    "financials": {
+      "monthly-income": 127415,
+      "monthly-expenses": 38063,
+      "monthly_savings": 89352,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "Stocks",
+      "invest-amt": 32041
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 5,
+      "ROR": 14.92,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "c6b310a1-5292-4c89-92cf-16855574d4b3",
+    "Name": "User74",
+    "Age": 26,
+    "employement-status": "Salaried",
+    "email": "user74@example.com",
+    "password": "6KAaHULw",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 136464,
+      "target-time": 9
+    },
+    "financials": {
+      "monthly-income": 102359,
+      "monthly-expenses": 64093,
+      "monthly_savings": 38266,
+      "debt": 81385,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 47659
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 8,
+      "ROR": 11.0,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "8897e870-97fd-4713-942d-b16e183e484a",
+    "Name": "User75",
+    "Age": 24,
+    "employement-status": "Salaried",
+    "email": "user75@example.com",
+    "password": "bXPB3yZ5",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 3965157,
+      "target-time": 20
+    },
+    "financials": {
+      "monthly-income": 79681,
+      "monthly-expenses": 18790,
+      "monthly_savings": 60891,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 16081
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 2,
+      "ROR": 13.9,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "c8becc55-a624-4c18-ab8b-e2e3aa5e2db7",
+    "Name": "User76",
+    "Age": 42,
+    "employement-status": "Unemployed",
+    "email": "user76@example.com",
+    "password": "X4ML51I3",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 3646017,
+      "target-time": 18
+    },
+    "financials": {
+      "monthly-income": 78149,
+      "monthly-expenses": 22088,
+      "monthly_savings": 56061,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "SIP",
+      "invest-amt": 49732
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 7,
+      "ROR": 7.46,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "11359678-275c-4373-bea1-68135ac7e4ad",
+    "Name": "User77",
+    "Age": 30,
+    "employement-status": "Freelancer",
+    "email": "user77@example.com",
+    "password": "EaJMQ3hu",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 1006086,
+      "target-time": 14
+    },
+    "financials": {
+      "monthly-income": 101264,
+      "monthly-expenses": 66423,
+      "monthly_savings": 34841,
+      "debt": 45577,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "Stocks",
+      "invest-amt": 6646
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 5,
+      "ROR": 10.36,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "295f93c5-73d4-41d8-9221-ab3060eff1e5",
+    "Name": "User78",
+    "Age": 34,
+    "employement-status": "Freelancer",
+    "email": "user78@example.com",
+    "password": "c3Mr2lM0",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 3457166,
+      "target-time": 16
+    },
+    "financials": {
+      "monthly-income": 30916,
+      "monthly-expenses": 17391,
+      "monthly_savings": 13525,
+      "debt": 80817,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 13793
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 1,
+      "ROR": 11.99,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "5a1d31b9-2421-41fb-9691-b2f1ccf78795",
+    "Name": "User79",
+    "Age": 27,
+    "employement-status": "Unemployed",
+    "email": "user79@example.com",
+    "password": "Ynr8Nmai",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 2532103,
+      "target-time": 14
+    },
+    "financials": {
+      "monthly-income": 117022,
+      "monthly-expenses": 16759,
+      "monthly_savings": 100263,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "Stocks",
+      "invest-amt": 13568
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 5,
+      "ROR": 7.99,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "d272ce50-a75e-4856-b757-9033654513df",
+    "Name": "User80",
+    "Age": 33,
+    "employement-status": "Freelancer",
+    "email": "user80@example.com",
+    "password": "1aAUSOUm",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 4594046,
+      "target-time": 18
+    },
+    "financials": {
+      "monthly-income": 129630,
+      "monthly-expenses": 61090,
+      "monthly_savings": 68540,
+      "debt": 63123,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "SIP",
+      "invest-amt": 30546
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 9,
+      "ROR": 14.89,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "ae796b7a-5d9e-48bc-9937-ab95830f8f8a",
+    "Name": "User81",
+    "Age": 28,
+    "employement-status": "Self-Employed",
+    "email": "user81@example.com",
+    "password": "lrYbRDB7",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 1685583,
+      "target-time": 13
+    },
+    "financials": {
+      "monthly-income": 101286,
+      "monthly-expenses": 55641,
+      "monthly_savings": 45645,
+      "debt": 64827,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 11233
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 10,
+      "ROR": 8.13,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "247e314c-743e-48ae-898a-abe9f79cf378",
+    "Name": "User82",
+    "Age": 47,
+    "employement-status": "Unemployed",
+    "email": "user82@example.com",
+    "password": "zHqT2Vd1",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 2492487,
+      "target-time": 19
+    },
+    "financials": {
+      "monthly-income": 86974,
+      "monthly-expenses": 61887,
+      "monthly_savings": 25087,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 17536
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 3,
+      "ROR": 7.78,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "44fd685e-b002-40a4-ac8d-0281fd4cc0fe",
+    "Name": "User83",
+    "Age": 32,
+    "employement-status": "Freelancer",
+    "email": "user83@example.com",
+    "password": "VCSfF6y1",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 207151,
+      "target-time": 8
+    },
+    "financials": {
+      "monthly-income": 36883,
+      "monthly-expenses": 57790,
+      "monthly_savings": -20907,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "Stocks",
+      "invest-amt": 41380
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 3,
+      "ROR": 12.72,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "618ebd67-8b7b-4b5e-87e1-9f9c87d05ebd",
+    "Name": "User84",
+    "Age": 33,
+    "employement-status": "Salaried",
+    "email": "user84@example.com",
+    "password": "o3UfzIGi",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 310000,
+      "target-time": 13
+    },
+    "financials": {
+      "monthly-income": 132457,
+      "monthly-expenses": 78230,
+      "monthly_savings": 54227,
+      "debt": 83035,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 10819
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 5,
+      "ROR": 14.7,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "34c976d6-d699-421c-b1f7-20db656e066c",
+    "Name": "User85",
+    "Age": 21,
+    "employement-status": "Unemployed",
+    "email": "user85@example.com",
+    "password": "74wIoOys",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 4114081,
+      "target-time": 13
+    },
+    "financials": {
+      "monthly-income": 87845,
+      "monthly-expenses": 70139,
+      "monthly_savings": 17706,
+      "debt": 78987,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 14629
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 2,
+      "ROR": 14.59,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "f08250e5-bd3c-40d6-9a4c-805ba2e98a41",
+    "Name": "User86",
+    "Age": 35,
+    "employement-status": "Self-Employed",
+    "email": "user86@example.com",
+    "password": "WXRYqdyq",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 1821273,
+      "target-time": 11
+    },
+    "financials": {
+      "monthly-income": 35419,
+      "monthly-expenses": 34597,
+      "monthly_savings": 822,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 19870
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 3,
+      "ROR": 7.58,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "2a538945-6ea0-4685-876c-4ed86374b054",
+    "Name": "User87",
+    "Age": 46,
+    "employement-status": "Salaried",
+    "email": "user87@example.com",
+    "password": "1Q8RoYue",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 3935030,
+      "target-time": 15
+    },
+    "financials": {
+      "monthly-income": 129592,
+      "monthly-expenses": 36085,
+      "monthly_savings": 93507,
+      "debt": 49870,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 15398
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 8,
+      "ROR": 11.34,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "15c2996e-8dc6-4596-b155-b4ddc8b94537",
+    "Name": "User88",
+    "Age": 26,
+    "employement-status": "Unemployed",
+    "email": "user88@example.com",
+    "password": "nndKt1WY",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 1672541,
+      "target-time": 15
+    },
+    "financials": {
+      "monthly-income": 48442,
+      "monthly-expenses": 59851,
+      "monthly_savings": -11409,
+      "debt": 47415,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 7264
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 10,
+      "ROR": 14.15,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "0dc6a97e-5484-41b1-a75d-6d728be01fcb",
+    "Name": "User89",
+    "Age": 28,
+    "employement-status": "Freelancer",
+    "email": "user89@example.com",
+    "password": "Q9KtacYY",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 4025891,
+      "target-time": 12
+    },
+    "financials": {
+      "monthly-income": 137622,
+      "monthly-expenses": 33409,
+      "monthly_savings": 104213,
+      "debt": 0,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 21962
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 6,
+      "ROR": 10.58,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "af08b493-89b4-4e12-85fe-659052cbd37e",
+    "Name": "User90",
+    "Age": 26,
+    "employement-status": "Unemployed",
+    "email": "user90@example.com",
+    "password": "REJQHoJa",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 2366821,
+      "target-time": 12
+    },
+    "financials": {
+      "monthly-income": 68835,
+      "monthly-expenses": 28272,
+      "monthly_savings": 40563,
+      "debt": 43690,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "SIP",
+      "invest-amt": 17995
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 7,
+      "ROR": 14.53,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "9c60dbac-a756-4c9b-9a1f-d9d20cca8a57",
+    "Name": "User91",
+    "Age": 46,
+    "employement-status": "Self-Employed",
+    "email": "user91@example.com",
+    "password": "DxCsuaN4",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 87635,
+      "target-time": 12
+    },
+    "financials": {
+      "monthly-income": 87246,
+      "monthly-expenses": 55508,
+      "monthly_savings": 31738,
+      "debt": 75618,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 47159
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 6,
+      "ROR": 11.36,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "fe74820e-1995-4148-bab5-8477f9088577",
+    "Name": "User92",
+    "Age": 25,
+    "employement-status": "Self-Employed",
+    "email": "user92@example.com",
+    "password": "mW5v57Sy",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 4648665,
+      "target-time": 14
+    },
+    "financials": {
+      "monthly-income": 47351,
+      "monthly-expenses": 64497,
+      "monthly_savings": -17146,
+      "debt": 55364,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 37757
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 3,
+      "ROR": 12.04,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "410f3b93-e805-406b-a809-d368cf0ce1c3",
+    "Name": "User93",
+    "Age": 30,
+    "employement-status": "Freelancer",
+    "email": "user93@example.com",
+    "password": "HrlE02kI",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 2173488,
+      "target-time": 15
+    },
+    "financials": {
+      "monthly-income": 128601,
+      "monthly-expenses": 39019,
+      "monthly_savings": 89582,
+      "debt": 69729,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 15635
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 3,
+      "ROR": 6.14,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "92a438d4-17a7-481e-9b52-2b6c98f92506",
+    "Name": "User94",
+    "Age": 48,
+    "employement-status": "Salaried",
+    "email": "user94@example.com",
+    "password": "1rvvfdOS",
+    "Goal": {
+      "goal": "Vacation",
+      "target-amt": 3685214,
+      "target-time": 5
+    },
+    "financials": {
+      "monthly-income": 105383,
+      "monthly-expenses": 10354,
+      "monthly_savings": 95029,
+      "debt": 39274,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "Stocks",
+      "invest-amt": 10343
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 2,
+      "ROR": 11.83,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "30cd65dc-d5f0-4ffb-ab32-bf2784c6259f",
+    "Name": "User95",
+    "Age": 48,
+    "employement-status": "Self-Employed",
+    "email": "user95@example.com",
+    "password": "2nulpHq3",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 4752368,
+      "target-time": 12
+    },
+    "financials": {
+      "monthly-income": 45012,
+      "monthly-expenses": 62923,
+      "monthly_savings": -17911,
+      "debt": 37041,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 16964
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 4,
+      "ROR": 5.98,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "cff0a014-7603-4855-ae6b-cae67f1dc178",
+    "Name": "User96",
+    "Age": 42,
+    "employement-status": "Self-Employed",
+    "email": "user96@example.com",
+    "password": "4e0duN0i",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 251494,
+      "target-time": 8
+    },
+    "financials": {
+      "monthly-income": 125196,
+      "monthly-expenses": 50247,
+      "monthly_savings": 74949,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "High",
+      "prefered-mode": "Stocks",
+      "invest-amt": 33424
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 6,
+      "ROR": 8.46,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "2ca827b3-ed75-4158-8be3-88decd9d14cd",
+    "Name": "User97",
+    "Age": 46,
+    "employement-status": "Freelancer",
+    "email": "user97@example.com",
+    "password": "yFHi6pUM",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 3047245,
+      "target-time": 16
+    },
+    "financials": {
+      "monthly-income": 119007,
+      "monthly-expenses": 79810,
+      "monthly_savings": 39197,
+      "debt": 89153,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Moderate",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 31834
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 4,
+      "ROR": 14.97,
+      "auto-adjust": true
+    }
+  },
+  {
+    "_id": "2b16097b-cc48-4e08-8f67-e952696f97ba",
+    "Name": "User98",
+    "Age": 34,
+    "employement-status": "Unemployed",
+    "email": "user98@example.com",
+    "password": "dnkWppbc",
+    "Goal": {
+      "goal": "Car Purchase",
+      "target-amt": 3041088,
+      "target-time": 11
+    },
+    "financials": {
+      "monthly-income": 78633,
+      "monthly-expenses": 49824,
+      "monthly_savings": 28809,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 30376
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 1,
+      "ROR": 8.93,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "41e211e4-5b40-477a-98aa-e318a4eed28f",
+    "Name": "User99",
+    "Age": 49,
+    "employement-status": "Freelancer",
+    "email": "user99@example.com",
+    "password": "QRawz9fp",
+    "Goal": {
+      "goal": "Buy House",
+      "target-amt": 1189684,
+      "target-time": 16
+    },
+    "financials": {
+      "monthly-income": 149539,
+      "monthly-expenses": 54106,
+      "monthly_savings": 95433,
+      "debt": 0,
+      "em-fund-opted": true
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "Lump Sum",
+      "invest-amt": 25564
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 1,
+      "ROR": 6.7,
+      "auto-adjust": false
+    }
+  },
+  {
+    "_id": "27d2707d-78ac-406a-b1df-848332147602",
+    "Name": "User100",
+    "Age": 46,
+    "employement-status": "Salaried",
+    "email": "user100@example.com",
+    "password": "ExQNmP0R",
+    "Goal": {
+      "goal": "Retirement",
+      "target-amt": 3412694,
+      "target-time": 3
+    },
+    "financials": {
+      "monthly-income": 82452,
+      "monthly-expenses": 54150,
+      "monthly_savings": 28302,
+      "debt": 64486,
+      "em-fund-opted": false
+    },
+    "investments": {
+      "risk-opt": "Low",
+      "prefered-mode": "SIP",
+      "invest-amt": 25345
+    },
+    "progress": {
+      "start_date": "2025-09-06",
+      "tenure": 10,
+      "ROR": 11.84,
+      "auto-adjust": false
+    }
+  }
+]
