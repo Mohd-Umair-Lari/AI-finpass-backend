@@ -6,6 +6,7 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 import certifi
 
+from flask_cors import CORS
 from analytics.financial_analytics import compute_financial_health
 from ml.goal_predictor import generate_plan, goal_probability
 from ml.goal_intelligence import compute_goal_intelligence
@@ -20,7 +21,7 @@ COLLECTION_NAME = os.getenv("COLLECTION_NAME", "userGoals").strip()
 
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 def connect_mongo() -> MongoClient:
     client = MongoClient(
