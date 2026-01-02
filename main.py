@@ -114,6 +114,26 @@ def api_get_user(email):
         return jsonify({"status": "error", "message": "User not found"}), 404
     return jsonify({"status": "success", "user": user})
 
+@app.route("/api/user/<email>", methods=["PUT"])
+def api_update_user(email):
+    data = request.get_json(silent=True) or {}
+
+    update = {
+        "Goal": data.get("Goal", {}),
+        "financials": data.get("financials", {}),
+        "investments": data.get("investments", {}),
+        "progress": data.get("progress", {})
+    }
+
+    result = collection.update_one(
+        {"email": email},
+        {"$set": update}
+    )
+
+    if result.matched_count == 0:
+        return jsonify({"error": "User not found"}), 404
+
+    return jsonify({"status": "success"})
 
 @app.route("/api/analytics/<email>", methods=["GET"])
 def analytics(email):
