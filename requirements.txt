@@ -8,6 +8,5 @@ certifi==2024.7.4
 python-dotenv==1.0.1
 
 numpy==2.1.0
-scikit-learn==1.5.1f
 
 requests==2.32.3
