@@ -6,11 +6,12 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 import certifi
 
-from flask_cors import CORS
 from analytics.financial_analytics import compute_financial_health
 from ml.goal_predictor import generate_plan, goal_probability
 from ml.goal_intelligence import compute_goal_intelligence
 from agent.financial_agent import run_agent
+from datetime import datetime
+
 
 env_path = os.path.join(os.path.dirname(__file__), "nosave", ".env")
 load_dotenv(dotenv_path=env_path)
@@ -22,6 +23,14 @@ COLLECTION_NAME = os.getenv("COLLECTION_NAME", "userGoals").strip()
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}})
+
+def ensure_onboarding(user):
+    if "onboarding" not in user:
+        user["onboarding"] = {
+            "status": "not_started",
+            "current_step": 0,
+            "last_updated": None
+        }
 
 def connect_mongo() -> MongoClient:
     client = MongoClient(
@@ -93,7 +102,6 @@ def api_signup():
         "password": password,
         "Age": str(data.get("Age") or ""),
         "employement-status": data.get("employement-status", "Salaried"),
-
         "Goal": data.get("Goal", {}),
         "financials": data.get("financials", {}),
         "investments": data.get("investments", {}),
@@ -106,6 +114,28 @@ def api_signup():
 
     return jsonify({"status": "success", "user": doc}), 201
 
+@app.route("/api/onboarding/start", methods=["POST"])
+def start_onboarding():
+    data = request.get_json(silent=True) or {}
+    email = data.get("email")
+
+    user = collection.find_one({"email": email})
+    if not user:
+        return jsonify({"error": "User not found"}), 404
+
+    ensure_onboarding(user)
+
+    if user["onboarding"]["status"] in ["not_started", "cancelled"]:
+        user["onboarding"]["status"] = "in_progress"
+        user["onboarding"]["current_step"] = 0
+        user["onboarding"]["last_updated"] = datetime.utcnow().isoformat()
+
+        collection.update_one(
+            {"email": email},
+            {"$set": {"onboarding": user["onboarding"]}}
+        )
+
+    return jsonify({"status": "ok", "onboarding": user["onboarding"]})
 
 @app.route("/api/user/<email>", methods=["GET"])
 def api_get_user(email):
@@ -134,6 +164,62 @@ def api_update_user(email):
         return jsonify({"error": "User not found"}), 404
 
     return jsonify({"status": "success"})
+
+@app.route("/api/user/<email>/onboarding/cancel", methods=["POST"])
+def cancel_onboarding(email):
+    user = collection.find_one({"email": email})
+    if not user:
+        return jsonify({"error": "User not found"}), 404
+
+    ensure_onboarding(user)
+
+    # Do not allow cancellation if already completed
+    if user["onboarding"]["status"] == "completed":
+        return jsonify({"error": "Onboarding already completed"}), 400
+
+    payload = request.get_json(silent=True) or {}
+    step = payload.get("current_step", user["onboarding"]["current_step"])
+
+    onboarding = {
+        "status": "cancelled",
+        "current_step": step,
+        "last_updated": datetime.utcnow().isoformat()
+    }
+
+    collection.update_one(
+        {"email": email},
+        {"$set": {"onboarding": onboarding}}
+    )
+
+    return jsonify({"status": "cancelled"})
+
+@app.route("/api/onboarding/complete", methods=["POST"])
+def complete_onboarding():
+    data = request.get_json(silent=True) or {}
+    email = data.get("email")
+
+    user = collection.find_one({"email": email})
+    if not user:
+        return jsonify({"error": "User not found"}), 404
+
+    ensure_onboarding(user)
+
+    onboarding = {
+        "status": "completed",
+        "current_step": None,
+        "last_updated": datetime.utcnow().isoformat()
+    }
+
+    collection.update_one(
+        {"email": email},
+        {"$set": {
+            "onboarding": onboarding,
+            "_onboarding_partial": False
+        }}
+    )
+
+    return jsonify({"status": "completed"})
+
 
 @app.route("/api/analytics/<email>", methods=["GET"])
 def analytics(email):
