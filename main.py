@@ -120,6 +120,11 @@ def api_signup():
         "financials": data.get("financials", {}),
         "investments": data.get("investments", {}),
         "progress": data.get("progress", {}),
+        "onboarding": {
+            "status": "in_progress",
+            "current_step": 0,
+            "last_updated": datetime.utcnow().isoformat()
+        }
     }
 
     collection.insert_one(doc)
