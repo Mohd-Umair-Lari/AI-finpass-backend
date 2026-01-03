@@ -26,11 +26,19 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 def ensure_onboarding(user):
     if "onboarding" not in user:
-        user["onboarding"] = {
+        onboarding = {
             "status": "not_started",
             "current_step": 0,
-            "last_updated": None
+            "last_updated": datetime.utcnow().isoformat()
         }
+
+        collection.update_one(
+            {"email": user["email"]},
+            {"$set": {"onboarding": onboarding}}
+        )
+
+        user["onboarding"] = onboarding
+
 
 def has_minimum_financial_data(user):
     goal = user.get("Goal", {})
@@ -145,16 +153,23 @@ def start_onboarding():
     ensure_onboarding(user)
 
     if user["onboarding"]["status"] in ["not_started", "cancelled"]:
-        user["onboarding"]["status"] = "in_progress"
-        user["onboarding"]["current_step"] = 0
-        user["onboarding"]["last_updated"] = datetime.utcnow().isoformat()
+        onboarding = {
+            "status": "in_progress",
+            "current_step": 0,
+            "last_updated": datetime.utcnow().isoformat()
+        }
 
         collection.update_one(
             {"email": email},
-            {"$set": {"onboarding": user["onboarding"]}}
+            {"$set": {"onboarding": onboarding}}
         )
 
-    return jsonify({"status": "ok", "onboarding": user["onboarding"]})
+        user["onboarding"] = onboarding
+
+    return jsonify({
+        "status": "success",
+        "onboarding": user["onboarding"]
+    })
 
 @app.route("/api/user/<email>", methods=["GET"])
 def api_get_user(email):
@@ -214,15 +229,18 @@ def cancel_onboarding(email):
 
 @app.route("/api/onboarding/status/<email>", methods=["GET"])
 def onboarding_status(email):
-    user = collection.find_one({"email": email}, {"_id": 0})
+    user = collection.find_one({"email": email})
     if not user:
-        return jsonify({"error": "User not found"}), 404
+        return jsonify({"status": "error", "message": "User not found"}), 404
 
     ensure_onboarding(user)
 
     return jsonify({
-        "status": user["onboarding"]["status"],
-        "current_step": user["onboarding"]["current_step"]
+        "status": "success",
+        "onboarding": {
+            "state": user["onboarding"]["status"],
+            "current_step": user["onboarding"]["current_step"]
+        }
     })
 
 
