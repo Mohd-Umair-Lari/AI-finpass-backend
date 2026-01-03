@@ -32,6 +32,20 @@ def ensure_onboarding(user):
             "last_updated": None
         }
 
+def has_minimum_financial_data(user):
+    goal = user.get("Goal", {})
+    financials = user.get("financials", {})
+    investments = user.get("investments", {})
+
+    return all([
+        goal.get("target-amt"),
+        goal.get("target-time"),
+        financials.get("monthly-income"),
+        investments.get("risk-opt"),
+        investments.get("invest-amt")
+    ])
+
+
 def connect_mongo() -> MongoClient:
     client = MongoClient(
         MONGO_URI,
@@ -193,6 +207,20 @@ def cancel_onboarding(email):
 
     return jsonify({"status": "cancelled"})
 
+@app.route("/api/onboarding/status/<email>", methods=["GET"])
+def onboarding_status(email):
+    user = collection.find_one({"email": email}, {"_id": 0})
+    if not user:
+        return jsonify({"error": "User not found"}), 404
+
+    ensure_onboarding(user)
+
+    return jsonify({
+        "status": user["onboarding"]["status"],
+        "current_step": user["onboarding"]["current_step"]
+    })
+
+
 @app.route("/api/onboarding/complete", methods=["POST"])
 def complete_onboarding():
     data = request.get_json(silent=True) or {}
@@ -261,10 +289,35 @@ def agent_api(email):
     if not user:
         return jsonify({"error": "User not found"}), 404
 
-    goal_intel = compute_goal_intelligence(user)
-    agent_response = run_agent(goal_intel)
+    if user.get("onboarding", {}).get("status") != "completed":
+        return jsonify({
+            "status": "inactive",
+            "reason": "onboarding_incomplete",
+            "message": "Complete onboarding to activate AI Decision Advisor.",
+            "agent": None
+        }), 200
 
-    return jsonify({
-        "goal_intelligence": goal_intel,
-        "agent": agent_response
-    })
+    if not has_minimum_financial_data(user):
+        return jsonify({
+            "status": "inactive",
+            "reason": "insufficient_data",
+            "message": "Not enough financial data to generate AI advice.",
+            "agent": None
+        }), 200
+
+    try:
+        goal_intel = compute_goal_intelligence(user)
+        agent_response = run_agent(goal_intel)
+
+        return jsonify({
+            "status": "active",
+            "goal_intelligence": goal_intel,
+            "agent": agent_response
+        })
+
+    except Exception as e:
+        print("[Agent Error]", e)
+        return jsonify({
+            "status": "error",
+            "message": "AI Decision Advisor temporarily unavailable."
+        }), 200
